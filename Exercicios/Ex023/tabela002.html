@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tabela02</title>
+    <style>
+        body {
+            font-family: Arial, Helvetica, sans-serif;
+        }
+
+        table {
+            width: 520px;
+            border-collapse: collapse;
+        }
+
+        td , th {
+            border: 1px solid  black;
+            padding: 10px;
+        }
+
+        tbody > tr:nth-child(2n) {
+            background-color: gray;
+        }
+
+        caption {
+            font-size: 1.5em;
+            font-weight: bold;
+            padding: 10px;
+            background-color: gray;
+        }
+
+        thead , tfoot {
+            background-color: gray;
+            color: white;
+        }
+    </style>
+</head>
+<body>
+    <h1>Uso de tabelas grandes</h1>
+
+    <table>
+        <caption>População das unidades Federais</caption>
+        <thead>
+            <tr>
+                <th scope="col">Estado</th>
+                <th scope="col", style="width: 100px;">Pulação</th>
+            </tr>
+        </thead>
+        <tbody>
+                <td>São Paulo</td>
+                <td>45 919 845</td>
+
+                <tr>
+                    <td>Minas Gerais</td>
+                    <td>21 168 791</td>
+                    
+                </tr>
+
+                <tr>
+                    <td>Rio de Janeiro</td>
+                    <td>17 264 943</td>
+                </tr>
+
+                <tr>
+                    <td>Bahia</td>
+                    <td>14 873 060</td>
+                </tr>
+                <tr>
+                    <td>Paraná</td>
+                    <td>11 542 215</td>
+                </tr>
+                <tr>
+                    <td>Rio Grande do Sul</td>
+                    <td>10 465 565</td>
+                </tr>
+                <tr>
+                    <td>Pernambuco</td>
+                    <td>9 500 456</td>
+                </tr>
+                <tr>
+                    <td>Ceara</td>
+                    <td>8 125 452</td>
+                </tr>
+                <tr>
+                    <td>Pará</td>
+                    <td>7 600 124</td>
+                </tr>
+                <tr>
+                    <td>Santa Catarina</td>
+                    <td>6 656 688</td>
+                </tr>
+                <tr>
+                    <td>Maranhão</td>
+                    <td>5 065 455</td>
+                </tr>
+                <tr>
+                    <td>Goias</td>
+                    <td>4 254 124</td>
+                </tr>
+                <tr>
+                    <td>Amazonas</td>
+                    <td>3 124 546</td>
+                </tr>
+                <tr>
+                    <td>Espirito Santo</td>
+                    <td>2 465 623</td>
+                </tr>
+                <tr>
+                    <td>Paraiba</td>
+                    <td>1 126 456</td>
+                </tr>
+        </tbody>
+        <tfoot>
+            <tr>
+                
+                    <th scope="row">Total de habitantes</th>
+                    <td>2135</td>
+                
+            </tr>
+        </tfoot>
+    </table>
+</body>
+</html>
